@@ -1,0 +1,305 @@
+
+-------------------------------------------------------------------------------
+pymode debug msg 1: Starting debug on: 2019-02-22 08:08:15 with file /tmp/makimat/pymode_debug_file.txt
+-------------------------------------------------------------------------------
+pymode debug msg 2: Operating system: Linux
+-------------------------------------------------------------------------------
+pymode debug msg 3: Scriptnames:
+  1: ~/.vim/bundle/python-mode/debugvimrc.vim
+  2: /usr/local/share/vim/vim81/plugin/getscriptPlugin.vim
+  3: /usr/local/share/vim/vim81/plugin/gzip.vim
+  4: /usr/local/share/vim/vim81/plugin/logiPat.vim
+  5: /usr/local/share/vim/vim81/plugin/manpager.vim
+  6: /usr/local/share/vim/vim81/plugin/matchparen.vim
+  7: /usr/local/share/vim/vim81/plugin/netrwPlugin.vim
+  8: /usr/local/share/vim/vim81/plugin/rrhelper.vim
+  9: /usr/local/share/vim/vim81/plugin/spellfile.vim
+ 10: /usr/local/share/vim/vim81/plugin/tarPlugin.vim
+ 11: /usr/local/share/vim/vim81/plugin/tohtml.vim
+ 12: /usr/local/share/vim/vim81/plugin/vimballPlugin.vim
+ 13: /usr/local/share/vim/vim81/plugin/zipPlugin.vim
+ 14: ~/.vim/bundle/python-mode/plugin/pymode.vim
+ 15: ~/.vim/bundle/python-mode/autoload/pymode.vim
+ 16: /usr/local/share/vim/vim81/filetype.vim
+ 17: /usr/local/share/vim/vim81/ftplugin.vim
+ 18: /usr/local/share/vim/vim81/ftplugin/python.vim
+ 19: ~/.vim/bundle/python-mode/ftplugin/python/pymode.vim
+ 20: ~/.vim/bundle/python-mode/autoload/pymode/virtualenv.vim
+ 21: ~/.vim/bundle/python-mode/autoload/pymode/breakpoint.vim
+ 22: ~/.vim/bundle/python-mode/autoload/pymode/debug.vim
+-------------------------------------------------------------------------------
+pymode debug msg 4: Pymode variables:
+pymode                #1
+pymode_breakpoint     #1
+pymode_breakpoint_bind  <leader>b
+pymode_breakpoint_cmd  import pdb; pdb.set_trace()  # XXX BREAKPOINT
+pymode_debug          #1
+pymode_debug_counter  #3
+pymode_debug_tempfile  /tmp/makimat/pymode_debug_file.txt
+pymode_doc            #1
+pymode_doc_bind        K
+pymode_doc_vertical   #0
+pymode_folding        #0
+pymode_folding_nest_limit #1000
+pymode_folding_regex   ^\s*\%(class\|def\|async\s\+def\) .\+\(:\s\+\w\)\@!
+pymode_indent         #1
+pymode_init           #1
+pymode_lint           #1
+pymode_lint_async     #1
+pymode_lint_async_updatetime #1000
+pymode_lint_checkers  ['pyflakes', 'pep8', 'mccabe']
+pymode_lint_comment_symbol  CC
+pymode_lint_cwindow   #1
+pymode_lint_docs_symbol  DD
+pymode_lint_error_symbol  EE
+pymode_lint_ignore    []
+pymode_lint_info_symbol  II
+pymode_lint_message   #1
+pymode_lint_on_fly    #0
+pymode_lint_on_write  #1
+pymode_lint_options_mccabe {'complexity': 12}
+pymode_lint_options_pep257 {}
+pymode_lint_options_pep8 {'max_line_length': 79}
+pymode_lint_options_pyflakes {'builtins': '_'}
+pymode_lint_options_pylint {'max-line-length': 79}
+pymode_lint_pyflakes_symbol  FF
+pymode_lint_select    []
+pymode_lint_signs     #1
+pymode_lint_sort      []
+pymode_lint_todo_symbol  WW
+pymode_lint_unmodified #0
+pymode_lint_visual_symbol  RR
+pymode_motion         #1
+pymode_options        #1
+pymode_options_colorcolumn #1
+pymode_options_max_line_length #79
+pymode_paths          []
+pymode_preview_height #12
+pymode_preview_position  botright
+pymode_python          python3
+pymode_quickfix_maxheight #6
+pymode_quickfix_minheight #3
+pymode_rope           #0
+pymode_run            #1
+pymode_run_bind        <leader>r
+pymode_trim_whitespaces #1
+pymode_version         0.9.4
+pymode_virtualenv     #1
+pymode_virtualenv_enabled  
+pymode_virtualenv_path  
+pymode_warning        #1
+-------------------------------------------------------------------------------
+pymode debug msg 5: Git commit: 
+166268a4882cd35b3d61ce9f926845d92a53ee06
+-------------------------------------------------------------------------------
+pymode debug msg 6: End of pymode#debug#sysinfo
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+Traceback (most recent call last):
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "<string>", line 1, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/lint.py", line 9, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from pylama.lint.extensions import LINTERS
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/pylama/lint/extensions.py", line 44, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from pylama.lint.pylama_pylint import Linter
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/pylama/lint/pylama_pylint.py", line 5, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid import MANAGER
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/__init__.py", line 62, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid.nodes import *
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/nodes.py", line 23, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid.node_classes import (
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/node_classes.py", line 37, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid import bases
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/bases.py", line 29, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    objectmodel = util.lazy_import('interpreter.objectmodel')
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/util.py", line 24, in lazy_import
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    return lazy_object_proxy.Proxy(
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+AttributeError: module 'lazy_object_proxy' has no attribute 'Proxy'
+
+[Pymode] Code checking is running ...
+Error detected while processing function pymode#lint#check:
+line   11:
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+NameError: name 'code_check' is not defined
+[Pymode] Code checking is completed. No errors found.
+
+Messages maintainer: Bram Moolenaar <Bram@vim.org>
+"test.py" 10L, 119C
+-------------------------------------------------------------------------------
+pymode debug msg 1: Starting debug on: 2019-02-22 08:08:15 with file /tmp/makimat/pymode_debug_file.txt
+-------------------------------------------------------------------------------
+pymode debug msg 2: Operating system: Linux
+-------------------------------------------------------------------------------
+pymode debug msg 3: Scriptnames:
+-------------------------------------------------------------------------------
+pymode debug msg 4: Pymode variables:
+pymode                #1
+pymode_breakpoint     #1
+pymode_breakpoint_bind  <leader>b
+pymode_breakpoint_cmd  import pdb; pdb.set_trace()  # XXX BREAKPOINT
+pymode_debug          #1
+pymode_debug_counter  #3
+pymode_debug_tempfile  /tmp/makimat/pymode_debug_file.txt
+pymode_doc            #1
+pymode_doc_bind        K
+pymode_doc_vertical   #0
+pymode_folding        #0
+pymode_folding_nest_limit #1000
+pymode_folding_regex   ^\s*\%(class\|def\|async\s\+def\) .\+\(:\s\+\w\)\@!
+pymode_indent         #1
+pymode_init           #1
+pymode_lint           #1
+pymode_lint_async     #1
+pymode_lint_async_updatetime #1000
+pymode_lint_checkers  ['pyflakes', 'pep8', 'mccabe']
+pymode_lint_comment_symbol  CC
+pymode_lint_cwindow   #1
+pymode_lint_docs_symbol  DD
+pymode_lint_error_symbol  EE
+pymode_lint_ignore    []
+pymode_lint_info_symbol  II
+pymode_lint_message   #1
+pymode_lint_on_fly    #0
+pymode_lint_on_write  #1
+pymode_lint_options_mccabe {'complexity': 12}
+pymode_lint_options_pep257 {}
+pymode_lint_options_pep8 {'max_line_length': 79}
+pymode_lint_options_pyflakes {'builtins': '_'}
+pymode_lint_options_pylint {'max-line-length': 79}
+pymode_lint_pyflakes_symbol  FF
+pymode_lint_select    []
+pymode_lint_signs     #1
+pymode_lint_sort      []
+pymode_lint_todo_symbol  WW
+pymode_lint_unmodified #0
+pymode_lint_visual_symbol  RR
+pymode_motion         #1
+pymode_options        #1
+pymode_options_colorcolumn #1
+pymode_options_max_line_length #79
+pymode_paths          []
+pymode_preview_height #12
+pymode_preview_position  botright
+pymode_python          python3
+pymode_quickfix_maxheight #6
+pymode_quickfix_minheight #3
+pymode_rope           #0
+pymode_run            #1
+pymode_run_bind        <leader>r
+pymode_trim_whitespaces #1
+pymode_version         0.9.4
+pymode_virtualenv     #1
+pymode_virtualenv_enabled  
+pymode_virtualenv_path  
+pymode_warning        #1
+-------------------------------------------------------------------------------
+pymode debug msg 5: Git commit: 
+166268a4882cd35b3d61ce9f926845d92a53ee06
+-------------------------------------------------------------------------------
+pymode debug msg 6: End of pymode#debug#sysinfo
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+Traceback (most recent call last):
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "<string>", line 1, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/lint.py", line 9, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from pylama.lint.extensions import LINTERS
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/pylama/lint/extensions.py", line 44, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from pylama.lint.pylama_pylint import Linter
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/pylama/lint/pylama_pylint.py", line 5, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid import MANAGER
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/__init__.py", line 62, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid.nodes import *
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/nodes.py", line 23, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid.node_classes import (
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/node_classes.py", line 37, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    from astroid import bases
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/bases.py", line 29, in <module>
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    objectmodel = util.lazy_import('interpreter.objectmodel')
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+  File "/home/makimat/.vim/bundle/python-mode/pymode/libs/astroid/util.py", line 24, in lazy_import
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+    return lazy_object_proxy.Proxy(
+Error detected while processing /home/makimat/.vim/bundle/python-mode/autoload/pymode/lint.vim:
+line    1:
+AttributeError: module 'lazy_object_proxy' has no attribute 'Proxy'
+Error detected while processing function pymode#lint#check:
+line   11:
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+NameError: name 'code_check' is not defined
+
+  1 import os
+-------------------------------------------------------------------------------
+pymode debug msg 7: Session history:
+      #  cmd history
+      1  PymodeLint
+      2  messages
+>     3  q
