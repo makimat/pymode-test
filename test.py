@@ -8,3 +8,4 @@ def do(something):
 
 if __name__ == '__main__':
     do('something simple')
+    do('something complex')
